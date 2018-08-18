@@ -27,7 +27,7 @@ namespace WpfApp2
             string input2 = Number_2.Text;
 
             Answer.Text = Calculator.Divide(input1, input2);
-            AnswerDescription.Text = input1 + "*" + input2 + "=";
+            AnswerDescription.Text = input1 + "/" + input2 + "=";
 
         }
         private void Subtract_on(object sender, RoutedEventArgs e)
